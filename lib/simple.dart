@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+class SimpleText {
+  String printRandomText() {
+    return "Data from Simple file";
+  }
+}
+
 class MyAppBar extends StatelessWidget {
   MyAppBar({this.title});
 
